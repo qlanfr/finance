@@ -28,6 +28,8 @@
 
 ![api](https://github.com/qlanfr/finance/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-10-31%2018-45-51.png)
 
+![tel](https://github.com/qlanfr/finance/blob/main/KakaoTalk_20241031_192736594.jpg)
+
 ---
 
 ## 설치 및 실행 가이드
@@ -69,16 +71,6 @@ my_devops_project/
 ├── main.py                     # FastAPI 서버 코드
 └── README.md                   # 프로젝트 문서화 파일
 -----
-
-
-#####최종 결과
-----
-![tel](https://github.com/qlanfr/finance/blob/main/KakaoTalk_20241031_192736594.jpg)
-
-
-
-![tel](https://github.com/qlanfr/finance/blob/main/KakaoTalk_20241031_192736594.jpg)
-
 
 
 
