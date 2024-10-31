@@ -37,20 +37,20 @@ async def send_latest_prediction(update, context):
     
     await update.message.reply_text(message)
 
-# 텔레그램 봇 설정
+
 app = Application.builder().token(TELEGRAM_TOKEN).build()
 app.add_handler(CommandHandler("predict", send_latest_prediction))
 
 # 스케줄링: 1시간마다 자원 사용량 전송
 schedule.every(1).hours.do(send_resource_usage)
 
-# 스케줄 실행 함수
+
 def run_schedule():
     while True:
         schedule.run_pending()
         time.sleep(1)
 
-# 텔레그램 봇 및 스케줄 병행 실행
+
 if __name__ == "__main__":
     app.run_polling()
     run_schedule()
