@@ -6,8 +6,8 @@ from telegram import Bot
 from telegram.ext import Application, CommandHandler
 
 # 설정 값
-TELEGRAM_TOKEN = "6503922869:AAFKvHDLeKD3Qks73n7QkhCegAFgok9c-3I"
-CHAT_ID = "6744698989"
+TELEGRAM_TOKEN = ""
+CHAT_ID = ""
 API_URL = "http://localhost:8000/latest_prediction"
 
 # 텔레그램 봇 초기화
