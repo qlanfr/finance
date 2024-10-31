@@ -8,7 +8,7 @@ app = FastAPI()
 # MySQL 데이터베이스 연결 설정
 DB_HOST = "localhost"
 DB_USER = "user"
-DB_PASSWORD = "Str0ng@Password!"  # 설정한 강력한 비밀번호
+DB_PASSWORD = ""
 DB_NAME = "stock_db"
 
 # 데이터베이스 연결 함수
