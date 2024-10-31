@@ -65,11 +65,13 @@ my_devops_project/
 └── README.md                   # 프로젝트 문서화 파일
 ---
 ###파드 확인
-* ![파드확인](https://github.com/qlanfr/finance/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-10-31%2018-44-36.png)
+*![파드확인](https://github.com/qlanfr/finance/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-10-31%2018-44-36.png)
+
+
 ----
 
 ###api 서버 확인
-* ![api동작](https://github.com/qlanfr/finance/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-10-31%2018-45-51.png)
+*![api동작](https://github.com/qlanfr/finance/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-10-31%2018-45-51.png)
 
 
 
