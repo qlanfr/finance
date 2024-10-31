@@ -24,9 +24,9 @@
             /predict 명령어로 가장 최근의 주가 예측값을 확인할 수 있습니다.
 
 ---
-*![] (https://github.com/qlanfr/finance/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-10-31%2018-44-36.png)
+* ![파드확인] (https://github.com/qlanfr/finance/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-10-31%2018-44-36.png)
 
-*![] (https://github.com/qlanfr/finance/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-10-31%2018-45-51.png)
+* ![api동작] (https://github.com/qlanfr/finance/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-10-31%2018-45-51.png)
 
 
 ---
