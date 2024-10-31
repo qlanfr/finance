@@ -5,13 +5,13 @@ from datetime import datetime
 
 app = FastAPI()
 
-# MySQL 데이터베이스 연결 설정
+# MySQL 데이터베이스 연결
 DB_HOST = "localhost"
 DB_USER = "user"
 DB_PASSWORD = ""
 DB_NAME = "stock_db"
 
-# 데이터베이스 연결 함수
+
 def connect_db():
     return mysql.connector.connect(
         host=DB_HOST,
@@ -31,7 +31,7 @@ def get_latest_prediction():
     db = connect_db()
     cursor = db.cursor()
 
-    # 최신 예측값을 가져오는 쿼리
+    
     query = "SELECT date, prediction FROM predictions ORDER BY date DESC LIMIT 1"
     cursor.execute(query)
     result = cursor.fetchone()
