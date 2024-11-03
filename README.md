@@ -10,6 +10,7 @@
 - **자원 모니터링**: `psutil`을 사용해 CPU와 메모리 사용량을 주기적으로 확인하고, 일정 조건을 충족할 때 오토스케일링 알림을 텔레그램으로 전송.
 - **텔레그램 봇 통합**: `/predict` 명령어로 최근 예측값을 요청하거나, 1시간마다 자원 사용량 보고를 수신할 수 있는 기능.
 - **컨테이너화 및 클러스터링**: Docker와 Kubernetes로 컨테이너를 배포하고, Terraform을 통해 자동화된 인프라 구성.
+- **자동 백업 시스템**: MySQL 데이터베이스를 자동으로 백업하여 관리.
 
 ---
 ##주요 기능 설명
@@ -61,15 +62,20 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
 
 my_devops_project/
-├── telegram_alert.py           # 자원 모니터링 및 텔레그램 알림 코드
-├── terraform_setup/            # Terraform 설정 폴더
-│   └── main.tf                 # Terraform 설정 파일
-├── kubernetes_setup/           # Kubernetes 설정 파일 폴더
-│   ├── deployment.yaml         # FastAPI 배포 설정 파일
-│   └── service.yaml            # FastAPI 로드 밸런서 설정 파일
-├── stock_predictor.py          # 주가 예측 모델 코드
-├── main.py                     # FastAPI 서버 코드
-└── README.md                   # 프로젝트 문서화 파일
+├── .github/
+│   └── workflows/
+│       └── deploy.yml              # GitHub Actions 워크플로우 파일
+├── terraform_setup/
+│   └── main.tf                     # Terraform 설정 파일
+├── kubernetes_setup/
+│   ├── deployment.yaml             # Kubernetes 배포 설정 파일
+│   └── service.yaml                # Kubernetes 서비스 설정 파일
+├── scripts/
+│   └── backup.sh                   # 자동 백업 스크립트
+├── main.py                          # FastAPI 서버 코드
+├── telegram_alert.py                # 자원 모니터링 및 텔레그램 알림 코드
+└── README.md                        # 프로젝트 설명 문서
+
 -----
 
 
