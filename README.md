@@ -5,8 +5,7 @@
 
 ---
 개인 프로젝트
-
-
+---
 주가 예측 모델 제작 기간 2021/01 ~ 진행중
 ---
 
@@ -40,6 +39,13 @@
 ![dd](https://github.com/qlanfr/finance/blob/main/fiance.jpg)
 
 ---
+미니 pc 특성상 gpu를 추가하기 힘들기에
+
+데스크탑에서 연산 작업 진행 후
+
+미니 pc와 ssh 연결해서
+예측 값 전송
+----
 
 ## 설치 및 실행 가이드
 
@@ -91,14 +97,4 @@ my_devops_project/
 #####개인 프로젝트
 
 
-미니 pc 특성상 gpu를 추가하기 힘들기에
 
-데스크탑에서 연산 작업 진행 후
-
-미니 pc와 ssh 연결해서
-
-예측 값 전송
----
-![](https://github.com/qlanfr/finance/blob/main/fiance.jpg)
-
----
