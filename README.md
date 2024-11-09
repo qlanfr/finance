@@ -37,6 +37,8 @@
 
 ![tel](https://github.com/qlanfr/finance/blob/main/tel.jpg)
 
+![dd](https://github.com/qlanfr/finance/blob/main/fiance.jpg)
+
 ---
 
 ## 설치 및 실행 가이드
@@ -96,9 +98,7 @@ my_devops_project/
 미니 pc와 ssh 연결해서
 
 예측 값 전송
+---
+![](https://github.com/qlanfr/finance/blob/main/fiance.jpg)
 
-![사진](https://github.com/qlanfr/finance/blob/main/fiance.jpg)
-
-
-
------------------------
+---
